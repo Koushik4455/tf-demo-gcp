@@ -6,3 +6,9 @@ terraform{
         }
     }
 }
+
+provider "google" {
+  project = "terraform-442905"
+  region  = "us-central1"
+  zone    = "us-central1-c"
+}
